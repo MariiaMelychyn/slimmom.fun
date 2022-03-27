@@ -1,0 +1,11 @@
+/* .calculatorPage {
+} */
+
+@media screen and (min-width: 1280px) {
+  .flexBox {
+    display: flex;
+  }
+  .formContainer {
+    width: 58%;
+  }
+}

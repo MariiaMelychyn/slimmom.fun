@@ -1,0 +1,91 @@
+@import '../../utils/variables.css';
+
+.rightSideBar {
+  padding: 40px 0 40px;
+  background-color: var(--sideBarBackground);
+}
+
+.rightSideBar_title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: var(--mainText);
+  margin: 0 0 20px;
+}
+
+.rightSideBar_text {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: var(--subText);
+}
+
+.rightSideBar_el {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSideBar_list {
+  margin-bottom: 40px;
+}
+
+.rightSideBar_product_list {
+  /* width: 270px; */
+  /* display: flex;
+  flex-direction: column; */
+  max-height: 112px;
+  overflow-y: scroll;
+}
+
+.rightSideBar_product_item {
+  display: inline;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: var(--subText);
+}
+
+@media screen and (min-width: 768px) {
+  .flexBox {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rightSideBar {
+    height: auto;
+    min-height: 50vh;
+    padding: 91px 87px;
+    background-image: url('../../images/bg-pictures/tablet/sideBarLeaves768_1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .rightSideBar_list {
+    width: 252px;
+    margin: 0 60px 0 0;
+  }
+
+  .rightSideBar_title {
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rightSideBar {
+    min-height: 84vh;
+    width: 42%;
+    display: block;
+    padding: 137px 175px 162px 90px;
+    background-image: url('../../images/bg-pictures/desktop/side-bar-leaves.png');
+    background-position: right -120px;
+  }
+
+  .rightSideBar_list {
+    margin: 0 0 60px 0;
+  }
+
+  .flexBox {
+    display: block;
+  }
+}
