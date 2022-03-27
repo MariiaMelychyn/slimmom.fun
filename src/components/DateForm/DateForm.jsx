@@ -2,13 +2,10 @@ import { useState, forwardRef, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import DatePicker, { registerLocale } from 'react-datepicker';
 import ruRU from 'date-fns/locale/ru';
-
 import { getDay } from '../../redux/day/day_operation';
 import { getUserId, getDays } from '../../redux/user/user_selector';
-
 import styles from './DateForm.module.css';
 import 'react-datepicker/dist/react-datepicker.css';
-
 import { ReactComponent as CalendarIcon } from '../../images/bg-pictures/mobile/calender-1.svg';
 
 // Компонент выбора даты на календаре

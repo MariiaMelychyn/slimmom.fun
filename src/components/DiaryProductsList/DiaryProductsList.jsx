@@ -1,8 +1,6 @@
 import { useSelector } from 'react-redux';
 import DiaryProductsListItem from '../DiaryProductsListItem';
-
 import { eatenProducts } from '../../redux/day/day_selector';
-
 import styles from './DiaryProductsList.module.css';
 
 const DiaryProductsList = () => {
